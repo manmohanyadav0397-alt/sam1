@@ -8,7 +8,7 @@ public class OrderRequest {
 	private String productName;
 	private Integer quantity;
 	private Double amount;
-	private String deliveryAddress;
+	private String deliverAddress;
 	public Long getCustomerId() {
 		return customerId;
 	}
@@ -45,11 +45,11 @@ public class OrderRequest {
 	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
-	public String getDeliveryAddress() {
-		return deliveryAddress;
+	public String getDeliverAddress() {
+		return deliverAddress;
 	}
-	public void setDeliveryAddress(String deliveryAddress) {
-		this.deliveryAddress = deliveryAddress;
+	public void setDeliverAddress(String deliverAddress) {
+		this.deliverAddress = deliverAddress;
 	}
 	
 	
