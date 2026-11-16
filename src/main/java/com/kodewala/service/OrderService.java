@@ -25,7 +25,7 @@ public class OrderService {
 		order.setProductName(request.getProductName());
 		order.setQuantity(request.getQuantity());
 		order.setAmount(request.getAmount());
-		order.setDeliverAddress(request.getDeliveryAddress());
+		order.setDeliverAddress(request.getDeliverAddress());
 		order.setStatus("CREATED");
 		
 	   return orderRepository.save(order);
